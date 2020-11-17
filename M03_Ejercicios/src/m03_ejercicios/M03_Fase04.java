@@ -105,6 +105,7 @@ public class M03_Fase04 {
 			System.out.print(santander[i]);
 		}
 		System.out.println();
+		System.out.println(santander.length);
 
 	}
 
