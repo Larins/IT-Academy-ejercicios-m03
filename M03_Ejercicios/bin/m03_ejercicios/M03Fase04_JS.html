@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>M03 Fase 02</title>
+</head>
+<body>
+
+		<script>	
+
+			//Por simplicidad, declaramos e inicializamos las variables manualmente (en lugar de correr los bucles de la fase 01).
+			var barc = "Barcelona";
+			var madr = "Madrid";
+			var vale = "Valencia";
+			var mala = "Malaga";
+			var cadi = "Cadiz";
+			var sant = "Santander";
+
+			//Creamos los 6 arrays: uno para cada ciudad, con la longitud adecuada en cada caso.
+
+			var barcelona = new Array(barc.length); 
+			var madrid = new Array(madr.length); 
+			var valencia = new Array(vale.length); 
+			var malaga = new Array(mala.length); 
+			var cadiz = new Array(cadi.length); 
+			var santander = new Array(sant.length); 		
+
+			//Poblamos cada uno de los arrays, letra por letra.
+				
+			barcelona[0] = 'B';
+			barcelona[1] = 'a';
+			barcelona[2] = 'r';
+			barcelona[3] = 'c';
+			barcelona[4] = 'e';
+			barcelona[5] = 'l';
+			barcelona[6] = 'o';
+			barcelona[7] = 'n';
+			barcelona[8] = 'a';
+
+			madrid[0] = 'M';
+			madrid[1] = 'a';
+			madrid[2] = 'd';
+			madrid[3] = 'r';
+			madrid[4] = 'i';
+			madrid[5] = 'd';
+
+			valencia[0] = 'V';
+			valencia[1] = 'a';
+			valencia[2] = 'l';
+			valencia[3] = 'e';
+			valencia[4] = 'n';
+			valencia[5] = 'c';
+			valencia[6] = 'i';
+			valencia[7] = 'a';
+
+			malaga[0] = 'M';
+			malaga[1] = 'a';
+			malaga[2] = 'l';
+			malaga[3] = 'a';
+			malaga[4] = 'g';
+			malaga[5] = 'a';
+
+			cadiz[0] = 'C';
+			cadiz[1] = 'a';
+			cadiz[2] = 'd';
+			cadiz[3] = 'i';
+			cadiz[4] = 'z';
+
+			santander[0] = 'S';
+			santander[1] = 'a';
+			santander[2] = 'n';
+			santander[3] = 't';
+			santander[4] = 'a';
+			santander[5] = 'n';
+			santander[6] = 'd';
+			santander[7] = 'e';
+			santander[8] = 'r';
+
+
+			//Printamos los array, de atrás a adelante.
+
+			alert(barcelona + " - " + barcelona.reverse() + "\n" + madrid + " - " +  madrid.reverse() + "\n" + valencia + " - " + valencia.reverse() + "\n" + malaga + " - " + malaga.reverse() + "\n" + cadiz + " - " + cadiz.reverse() + "\n" + santander + " - " + santander.reverse());
+
+
+		</script>
+</body>
+</html>
